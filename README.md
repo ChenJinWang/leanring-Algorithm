@@ -21,14 +21,14 @@ class PetApplicationTests {
         return false;
     }
 
-        public static void main(String[] args){
-            int[] nums= {1,101,34,119,1};
-            System.out.println("初始值：");
-            System.out.println(Arrays.toString(nums));
-            Demo(nums);
-            System.out.println("输出值：");
-            System.out.println(Demo(nums));
-        }
+    public static void main(String[] args){
+        int[] nums= {1,101,34,119,1};
+        System.out.println("初始值：");
+        System.out.println(Arrays.toString(nums));
+        Demo(nums);
+        System.out.println("输出值：");
+        System.out.println(Demo(nums));
+    }
 
 }
 
